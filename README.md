@@ -16,6 +16,7 @@ Features
 
 5. Lightweight and optimized for local execution.
 
+
 🛠️ Tech Stack
 
 Category	Tools & Libraries
@@ -25,6 +26,7 @@ LLM	Microsoft Phi-3 Mini 4K Instruct
 File Parsing	PyMuPDF, python-docx, standard I/O
 NLP Techniques	Chunking, typo correction, formatting
 Deployment (CLI)	Streamlined through script execution
+
 
 🧾 How It Works
 
@@ -36,6 +38,7 @@ Deployment (CLI)	Streamlined through script execution
 
 4. Email Drafting: A custom prompt generates a professional email based on the summarized content.
 
+
 📂 Project Structure
 
 VersaMind/
@@ -44,11 +47,13 @@ VersaMind/
 
 💻 Run Locally
 
+
 🧰 Requirements
 Install required libraries:
 
 pip install -r requirements.txt  # or install manually:
 pip install torch transformers pymupdf python-docx
+
 
 ▶️ Execution
 Run the summarizer and email drafter:
@@ -56,6 +61,7 @@ Run the summarizer and email drafter:
 
 python versamind_–_smart_document_summarizer_&_email_drafter.py
 Follow the CLI prompts to input a document and generate a summary or draft email.
+
 
 🎯 Future Enhancements
 
@@ -66,6 +72,7 @@ Follow the CLI prompts to input a document and generate a summary or draft email
 3. Multi-document summarization
 
 4. Save/export summaries and emails
+
 
 📬 Contact
 For questions, feedback, or contributions:
